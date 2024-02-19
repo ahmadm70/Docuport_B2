@@ -8,13 +8,13 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-public class ExcelUtil {
+public class ExcelUtilities {
 
     private Sheet workSheet;
     private Workbook workBook;
     private String path;
 
-    public ExcelUtil(String path, String sheetName) {
+    public ExcelUtilities(String path, String sheetName) {
         this.path = path;
         try {
             // Open the Excel file

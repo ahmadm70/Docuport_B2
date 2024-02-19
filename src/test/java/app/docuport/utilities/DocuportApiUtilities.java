@@ -4,10 +4,9 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.emptyOrNullString;
 import static org.hamcrest.Matchers.not;
 
-public class DocuportApiUtil {
+public class DocuportApiUtilities {
 
 
     public static String getAccessToken(String email, String password){
