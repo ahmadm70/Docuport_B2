@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"},
         features = "src/test/resources/features/",
         glue = "app/docuport/step_definitions/",
-        dryRun = true
+        tags = "@wip",
+        dryRun = false
 )
 public class CukesRunner {
 }
